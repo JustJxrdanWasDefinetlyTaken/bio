@@ -1,0 +1,5 @@
+name = "jrdn-bio-site"
+compatibility_date = "2025-07-28"
+
+[site]
+bucket = "./public"
