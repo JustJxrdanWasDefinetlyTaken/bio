@@ -101,13 +101,13 @@ a:hover {
 }
 
 .project-content {
-    background:#313244;
+    background: rgba(255, 255, 255, 0.483);
     text-align: center;
-    color: #fff;
+    color: black;
     max-width: 80%;
-    padding:5px;
-    border-radius:10px;
-    margin-bottom:20px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .title {
@@ -118,6 +118,7 @@ a:hover {
 .desc {
     font-size: 14px;
     margin-bottom: 5px;
+    color:black;
 }
 
 .project-buttons {
@@ -129,14 +130,14 @@ a:hover {
 .btn {
     padding: 8px 16px;
     border-radius: 8px;
-    background: #45475a;
-    color: #fff;
+    background: rgba(255, 255, 255, 0.311);
+    color: black;
     text-decoration: none;
     transition: background 0.2s ease;
     font-size: 20px;
     display: inline-flex;
     align-items: center;
-    gap: 8px;     
+    gap: 8px;
 }
 
 .btn:hover {
@@ -168,7 +169,7 @@ a:hover {
     height: 25px;
     position: relative;
     backdrop-filter: blur(10px);
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 .fill {
@@ -188,9 +189,9 @@ a:hover {
     overflow-x: hidden;
     align-items: center;
     justify-content: center;
-    height:220px;
+    height: 220px;
 }
 
 i {
-    font-size:20px;
+    font-size: 20px;
 }
