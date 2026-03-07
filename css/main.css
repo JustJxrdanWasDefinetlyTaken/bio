@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+    background: black;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box {
+    background: #0f0f0f;
+    padding: 25px;
+    border-radius: 14px;
+    border: 1px solid #1f1f1f;
+    width: 700px;
+    min-width: 700px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 550px;
+}
+
+.box img {
+    width: 200px;
+    position: relative;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.box .floats {
+    position: relative;
+    float: left;
+    height:450px;
+    border-right:1px solid #2e2e2e;
+}
+
+.box .icons {
+    flex-direction: row;
+    padding-top: 30px;
+    position: relative;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.info {
+    position: absolute;
+    margin-top: 230px;
+    width: 200px;
+}
+
+.info2 {
+    position: absolute;
+    margin-top: 300px;
+    width: 200px;
+}
+
+.box .icons img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 100px;
+    margin: 3px;
+}
+
+.box .text {
+    flex-direction: column;
+    display: flex;
+    width: 300px;
+    position: relative;
+    left: 80px;
+    padding-top: 10px;
+}
+
+.scroll-proj {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 300px;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.project {
+    padding: 15px;
+    background: #141414;
+    border: 1px solid #1f1f1f;
+    border-radius: 10px;
+    height: 250px;
+    gap: 10px;
+}
+
+.project p {
+    color: rgb(82, 82, 82);
+    margin-top: 5px;
+}
+
+.project .btn {
+    background: #1f1f1f;
+    border: 1px solid #141414;
+    padding: 8px 16px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    margin-top: 10px;
+    display: inline-flex;
+    border-radius: 5px;
+    align-items: center;
+    gap: 6px;
+}
+
+i {
+    font-size: 20px;
+}
